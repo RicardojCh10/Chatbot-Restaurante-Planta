@@ -1,0 +1,35 @@
+name: chatbot_rag_app
+description: "Una aplicación Flutter para un chatbot RAG."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Asegúrate de usar una versión de SDK reciente
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Para peticiones HTTP
+  dio: ^5.4.3+1 # Usé una versión estable, puedes ajustarla a la que mencionaste
+  
+  # Para manejo de estado
+  provider: ^6.1.2
+  
+  # Para el indicador de carga (opcional pero recomendado)
+  flutter_spinkit: ^5.2.1
+
+  # Añadido para persistencia
+  shared_preferences: ^2.2.3
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
